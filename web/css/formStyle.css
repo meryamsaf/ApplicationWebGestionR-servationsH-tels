@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 févr. 2021, 12:47:48
+    Author     : meryam
+*/
+
+            .formulaire{
+                width:600px;
+                background-color: rgba(0,0,0,0.6);
+                margin:auto;
+                color:#FFFFFF;
+                padding:10px 0px 10px 0px;
+                text-align:center;
+                border-radius:15px 15px 0px 0px; 
+            }
+           
+            .main{
+               background-color: rgba(0,0,0,0.5);
+               width:600px;
+               margin:auto;
+            } 
+            
+            form{
+               padding:10px; 
+            }
+            #name{
+                width:100%;
+                height:100px;
+            }
+            .name{
+               margin-left:25px;
+               margin:15px;
+               width:500px;
+               color:white;
+               font-size:18px;
+               font-weight:700;
+               
+            }
+            .inp{
+                position:relative;
+                left:0px;
+                top:-37;
+                line-height:40px;
+                width:532px;
+                border-radius:6px;
+                padding:0 22px;
+                font-size:16px;
+                color:#555;
+            }
+            .radio{
+                display:inline-block;
+                padding-right:70px;
+                font-size:25px;
+                margin-left:25px;
+                margin-top:15px;
+                color:white;
+            }  
+            .radio input{
+                width:20px;
+                height:20px;
+                border-radius: 50%;
+                cursor:pointer;
+                outline:none;
+            }
+            button{
+                background-color:#3BAF9F;
+                display:block;
+                margin:20px 0px 0px 20px;
+                text-align:center;
+                border-radius: 12px;
+                border:2px solid #366473;
+                padding:14px 110px;
+                outline:none;
+                color:white;
+                cursor:pointer;
+                transition:0.25px;
+            }
+            button:hover{
+                background-color: #5390F5;
+            }
+         
